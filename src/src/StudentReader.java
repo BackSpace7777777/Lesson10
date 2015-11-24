@@ -14,8 +14,7 @@ public class StudentReader {
     {
         try
         {
-            BufferedReader br=new BufferedReader(new InputStreamReader(
-    getClass().getResourceAsStream("/src/students.txt")));
+            BufferedReader br=new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/src/students.txt")));
             String o,t,tt;
             for(int i=0;i<100;i++)
             {
