@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class Main {
+public class Main implements Comparable{
     public static JFrame frame=new JFrame("Searching program");
     private static JButton searchButton;
     private static JTextField inID;
@@ -27,7 +27,16 @@ public class Main {
         searchButton.setText("Search");
         searchButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                
+                long tempL=Long.parseLong(inID.getText());
+                int temp=search(s,tempL);
+                if(temp==-1)
+                {
+                    out.setText(tempL + " Not found");
+                }
+                else
+                {
+                    out.setText(s[temp].getName());
+                }
             }
         });
         inID=new JTextField();
@@ -39,5 +48,23 @@ public class Main {
         frame.add(inID);
         frame.add(searchButton);
         frame.setVisible(true);
+    }
+    public static int search (Object[] a, Object searchValue){
+	   int left = 0;
+	   int right = a.length-1;
+	   while (left <= right){
+	      int midpoint = (left + right) / 2;
+	      int result = ((Comparable)a[midpoint]).compareTo(searchValue); 
+	      if (result == 0)
+	         return midpoint;
+	      else if (result < 0)
+	         left = midpoint + 1;
+	      else
+	         right = midpoint-1;
+	   }
+	   return -1;	   
+    }
+    public int compareTo(Object o) {
+        
     }
 }
