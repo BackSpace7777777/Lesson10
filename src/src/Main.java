@@ -14,8 +14,10 @@ public class Main {
     private static JTextField inID;
     private static JTextArea out;
     private static StudentReader sr;
+    private static Student[] s=new Student[100];
     public static void main(String[] args) {
         sr=new StudentReader();
+        s=sr.loadStudents(s);
         frame.setSize(375,375);
         frame.setDefaultCloseOperation(3);
         frame.setResizable(false);

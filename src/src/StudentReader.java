@@ -63,6 +63,14 @@ public class StudentReader {
     {
         return names[index];
     }
+    public Student[] loadStudents(Student[] s)
+    {
+        for(int i=0;i<s.length;i++)
+        {
+            s[i]=new Student(names[i],address[i],Long.parseLong(id[i]));
+        }
+        return s;
+    }
     private String[] addToStringArray(String[] array)
     {
         String temp[]=new String[array.length+1];
