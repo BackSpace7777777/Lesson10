@@ -28,7 +28,7 @@ public class Main implements Comparable{
         searchButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 long tempL=Long.parseLong(inID.getText());
-                int temp=search(s,tempL);
+                int temp=0;
                 if(temp==-1)
                 {
                     out.setText(tempL + " Not found");
@@ -50,21 +50,21 @@ public class Main implements Comparable{
         frame.setVisible(true);
     }
     public static int search (Object[] a, Object searchValue){
-	   int left = 0;
-	   int right = a.length-1;
-	   while (left <= right){
-	      int midpoint = (left + right) / 2;
-	      int result = ((Comparable)a[midpoint]).compareTo(searchValue); 
-	      if (result == 0)
-	         return midpoint;
-	      else if (result < 0)
-	         left = midpoint + 1;
-	      else
-	         right = midpoint-1;
-	   }
-	   return -1;	   
+       int left = 0;
+       int right = a.length-1;
+       while (left <= right){
+          int midpoint = (left + right) / 2;
+          int result = ((Comparable)a[midpoint]).compareTo(searchValue); 
+          if (result == 0)
+             return midpoint;
+          else if (result < 0)
+             left = midpoint + 1;
+          else
+             right = midpoint-1;
+       }
+       return -1;	   
     }
     public int compareTo(Object o) {
-        
+        int i=(Student)o.
     }
 }
