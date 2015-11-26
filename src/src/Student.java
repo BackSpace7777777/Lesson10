@@ -1,5 +1,5 @@
 package src;
-public class Student {
+public class Student{
     private String name,address;
     private long ID;
     public Student(String name,String address,long ID)
@@ -19,5 +19,16 @@ public class Student {
     public String getName()
     {
         return name;
+    }
+    public int compareTo(long o) {
+        if(ID>o)
+        {
+            return 1;
+        }
+        else if(ID<o)
+        {
+            return -1;
+        }
+        else return 0;
     }
 }

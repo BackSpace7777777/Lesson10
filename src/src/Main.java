@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class Main implements Comparable{
+public class Main{
     public static JFrame frame=new JFrame("Searching program");
     private static JButton searchButton;
     private static JTextField inID;
@@ -27,15 +27,18 @@ public class Main implements Comparable{
         searchButton.setText("Search");
         searchButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                long tempL=Long.parseLong(inID.getText());
-                int temp=0;
-                if(temp==-1)
+                long tempL=-1;
+                try{
+                    tempL=Long.parseLong(inID.getText());
+                }
+                catch(NumberFormatException ex){}
+                if(tempL==-1)
                 {
                     out.setText(tempL + " Not found");
                 }
                 else
                 {
-                    out.setText(s[temp].getName());
+                    out.setText(s[search(s,tempL)].getName());
                 }
             }
         });
@@ -49,12 +52,12 @@ public class Main implements Comparable{
         frame.add(searchButton);
         frame.setVisible(true);
     }
-    public static int search (Object[] a, Object searchValue){
+    public static int search (Student[] a, long searchValue){
        int left = 0;
        int right = a.length-1;
        while (left <= right){
           int midpoint = (left + right) / 2;
-          int result = ((Comparable)a[midpoint]).compareTo(searchValue); 
+          int result = (a[midpoint]).compareTo(searchValue); 
           if (result == 0)
              return midpoint;
           else if (result < 0)
@@ -63,8 +66,5 @@ public class Main implements Comparable{
              right = midpoint-1;
        }
        return -1;	   
-    }
-    public int compareTo(Object o) {
-        int i=(Student)o.
     }
 }
