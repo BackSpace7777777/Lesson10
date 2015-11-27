@@ -1,4 +1,4 @@
-package src;
+package src.StudentFinder;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
+import src.Student;
 
 public class StudentReader {
     private String[] names=new String[1],address=new String[1],id=new String[1];
@@ -14,7 +15,7 @@ public class StudentReader {
     {
         try
         {
-            BufferedReader br=new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/src/students.txt")));
+            BufferedReader br=new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/src/StudentFinder/students.txt")));
             String o,t,tt;
             for(int i=0;i<100;i++)
             {

@@ -1,5 +1,6 @@
 package src;
 
+import src.StudentFinder.StudentReader;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -10,18 +11,27 @@ import javax.swing.JTextField;
 
 public class Main{
     public static JFrame frame=new JFrame("Searching program");
-    private static JButton searchButton;
+    private static JButton searchButton,sortScreen;
     private static JTextField inID;
     private static JTextArea out;
     private static StudentReader sr;
     private static Student[] s=new Student[100];
+    private static SortingAssignment sa;
     public static void main(String[] args) {
         sr=new StudentReader();
         s=sr.loadStudents(s);
-        frame.setSize(375,375);
+        frame.setSize(475,375);
         frame.setDefaultCloseOperation(3);
         frame.setResizable(false);
         frame.setLayout(null);
+        sortScreen=new JButton();
+        sortScreen.setBounds(315,5,150,30);
+        sortScreen.setText("Sorting");
+        sortScreen.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                mainVisible(false);
+            }
+        });
         searchButton=new JButton();
         searchButton.setBounds(5,5,150,30);
         searchButton.setText("Search");
@@ -38,7 +48,17 @@ public class Main{
                 }
                 else
                 {
-                    out.setText(s[search(s,tempL)].getName());
+                    try
+                    {
+                        int person=search(s,tempL);
+                        out.setText(s[person].getName());
+                        out.append("\n" + s[person].getAddress());
+                        out.append("\n" + s[person].getID());
+                    }
+                    catch(ArrayIndexOutOfBoundsException ex)
+                    {
+                        out.setText("Not found");
+                    }
                 }
             }
         });
@@ -46,7 +66,9 @@ public class Main{
         inID.setBounds(160,5,150,30);
         out=new JTextArea();
         out.setEditable(false);
-        out.setBounds(5,40,360,300);
+        out.setBounds(5,40,460,300);
+        sa=new SortingAssignment();
+        frame.add(sortScreen);
         frame.add(out);
         frame.add(inID);
         frame.add(searchButton);
@@ -66,5 +88,16 @@ public class Main{
              right = midpoint-1;
        }
        return -1;	   
+    }
+    public static void mainVisible(boolean tf)
+    {
+        frame.setTitle("Lesson 10 - Student Finder");
+        frame.setSize(375,375);
+        out.setVisible(tf);
+        inID.setVisible(tf);
+        searchButton.setVisible(tf);
+        sortScreen.setVisible(tf);
+        if(tf)sa.visible(false);
+        else sa.visible(true);
     }
 }

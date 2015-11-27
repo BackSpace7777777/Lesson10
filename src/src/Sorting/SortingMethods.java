@@ -1,4 +1,4 @@
-package src;
+package src.Sorting;
 public class SortingMethods {
     public static void bubbleSort(int[] a){
    	int k = 0;
