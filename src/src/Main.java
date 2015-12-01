@@ -10,7 +10,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 public class Main{
-    public static JFrame frame=new JFrame("Searching program");
+    public static JFrame frame=new JFrame("Lesson 10 - Student Finder");
     private static JButton searchButton,sortScreen;
     private static JTextField inID;
     private static JTextArea out;
@@ -92,7 +92,7 @@ public class Main{
     public static void mainVisible(boolean tf)
     {
         frame.setTitle("Lesson 10 - Student Finder");
-        frame.setSize(375,375);
+        frame.setSize(475,375);
         out.setVisible(tf);
         inID.setVisible(tf);
         searchButton.setVisible(tf);
