@@ -14,7 +14,7 @@ import src.Sorting.SortingMethods;
 public class SortingAssignment extends Main{
     private JList list;
     private DefaultListModel ml;
-    private JButton generate,bubble,exchange,insertion,quick,back;
+    private JButton generate,bubble,exchange,insertion,quick,back,personArray;
     private JScrollPane js;
     private JTextField arraySize1,totalTime;
     private int[] numbers=new int[1];
@@ -25,6 +25,15 @@ public class SortingAssignment extends Main{
     private boolean sorting=false;
     public SortingAssignment()
     {
+        personArray=new JButton();
+        personArray.setBounds(315,40,150,30);
+        personArray.setText("Person Array");
+        personArray.setVisible(false);
+        personArray.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                visible(false);
+            }
+        });
         jpb=new JProgressBar();
         jpb.setBounds(160,320,300,20);
         jpb.setVisible(false);
@@ -64,7 +73,7 @@ public class SortingAssignment extends Main{
                             }
                             catch(Exception ex){arraySize1.setText("1");numbers=new int[1];reset();}
                             end=System.currentTimeMillis();
-                            totalTime.setText("Total Time(ms): " + (end-start));
+                            totalTime.setText("Total Time(s): " + (end-start)/1000);
                             sorting=false;
                         }
                     });
@@ -86,7 +95,7 @@ public class SortingAssignment extends Main{
                             start=System.currentTimeMillis();
                             SortingMethods.bubbleSort(numbers);
                             end=System.currentTimeMillis();
-                            totalTime.setText("Total Time(ms): " + (end-start));
+                            totalTime.setText("Total Time(s): " + (end-start)/1000);
                             reloadML();
                             sorting=false;
                         }
@@ -109,7 +118,7 @@ public class SortingAssignment extends Main{
                             start=System.currentTimeMillis();
                             SortingMethods.selectionSort(numbers);
                             end=System.currentTimeMillis();
-                            totalTime.setText("Total Time(ms): " + (end-start));
+                            totalTime.setText("Total Time(s): " + (end-start)/1000);
                             reloadML();
                             sorting=false;
                         }
@@ -132,7 +141,7 @@ public class SortingAssignment extends Main{
                             start=System.currentTimeMillis();
                             SortingMethods.insertionSort(numbers);
                             end=System.currentTimeMillis();
-                            totalTime.setText("Total Time(ms): " + (end-start));
+                            totalTime.setText("Total Time(s): " + (end-start)/1000);
                             reloadML();
                             sorting=false;
                         }

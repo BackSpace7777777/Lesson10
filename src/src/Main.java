@@ -3,7 +3,6 @@ package src;
 import src.StudentFinder.StudentReader;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
@@ -17,6 +16,7 @@ public class Main{
     private static StudentReader sr;
     private static Student[] s=new Student[100];
     private static SortingAssignment sa;
+    private static PersonArray pa;
     public static void main(String[] args) {
         sr=new StudentReader();
         s=sr.loadStudents(s);
@@ -68,6 +68,7 @@ public class Main{
         out.setEditable(false);
         out.setBounds(5,40,460,300);
         sa=new SortingAssignment();
+        pa=new PersonArray();
         frame.add(sortScreen);
         frame.add(out);
         frame.add(inID);
