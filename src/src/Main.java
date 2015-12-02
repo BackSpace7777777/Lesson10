@@ -16,7 +16,7 @@ public class Main{
     private static StudentReader sr;
     private static Student[] s=new Student[100];
     private static SortingAssignment sa;
-    private static PersonArray pa;
+    public static PersonArray pa;
     public static void main(String[] args) {
         sr=new StudentReader();
         s=sr.loadStudents(s);

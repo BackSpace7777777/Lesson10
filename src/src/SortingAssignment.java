@@ -32,6 +32,7 @@ public class SortingAssignment extends Main{
         personArray.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 visible(false);
+                pa.visible(true);
             }
         });
         jpb=new JProgressBar();
@@ -159,6 +160,7 @@ public class SortingAssignment extends Main{
         js.setViewportView(list);
         js.setVisible(false);
         js.setBounds(list.getBounds());
+        frame.add(personArray);
         frame.add(js);
         frame.add(back);
         frame.add(generate);
@@ -184,6 +186,7 @@ public class SortingAssignment extends Main{
         arraySize1.setVisible(tf);
         insertion.setVisible(tf);
         totalTime.setVisible(tf);
+        personArray.setVisible(tf);
         jpb.setVisible(tf);
     }
     private void reloadML()
