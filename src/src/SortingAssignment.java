@@ -63,6 +63,8 @@ public class SortingAssignment extends Main{
             public void actionPerformed(ActionEvent e) {
                 if(sorting==false);
                 {
+                    try
+                    {
                     sorting=true;
                     t=new Thread(new Runnable() {
                         public void run() {
@@ -70,6 +72,7 @@ public class SortingAssignment extends Main{
                             try
                             {
                                 numbers=new int[Integer.parseInt(arraySize1.getText())];
+                                
                                 reset();
                             }
                             catch(Exception ex){arraySize1.setText("1");numbers=new int[1];reset();}
@@ -79,6 +82,8 @@ public class SortingAssignment extends Main{
                         }
                     });
                     t.start();
+                    }
+                    catch(Exception ex){System.out.println(ex);}
                 }
             }
         });
