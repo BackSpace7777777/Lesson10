@@ -1,0 +1,614 @@
+Acton-Keith,Washington Capitals,C,200000,170
+Adams-Greg,Vancouver Canucks,LW,650000,195
+Aivazoff-Mioah,Detroit Red Wings,C,225000,185
+Albelin-Tommy,New Jersey Devils,D,300000,190
+Amonte-Tony,New York Rangers,RW,290000,190
+Anderson-Glenn,Toronto Maple Leafs,RW,1250000,190
+Andersson-Mikael,Tampa Bay Lightning,RW,365000,185
+Andreychuk-Dave,Toronto Maple Leafs,LW,1171499,220
+Antoski-Shawn,Vancouver Canucks,LW,145000,240
+Archibald-David,Ottawa Senators,C,200000,210
+Arnott-Jason,Edmonton Oilers,C,700000,195
+Astley-Mark,Buffalo Sabres,D,250000,185
+Audette-Donald,Buffalo Sabres,RW,400000,175
+Babych-David,Vancouver Canucks,D,600000,215
+Baker-Jamie,San Jose Sharks,C,210000,190
+Barnabay-Matthew,Buffalo Sabres,LW,250000,170
+Barnes-Stu,Winnipeg Jets,C,175000,180
+Baron-Murray,St. Louis Blues,D,325000,215
+Barr-Dave,Dallas Stars,C,220000,195
+Barrasso-Tom,Pittsburgh Penguins,G,1225000,211
+Bassen-Bob,St. Louis Blues,C,280000,185
+Baumgartner-Kent,Toronto Maple Leafs,LW,370000,205
+Bautin-Sergei,Winnipeg Jets,D,200000,185
+Bawa-Robin,Anaheim Mighty Ducks,RW,195000,214
+Beaupre-Don,Washington Capitals,G,925000,165
+Beauregard-Stephane,Winnipeg Jets,G,325000,182
+Beers-Bob,Tampa Bay Lightning,D,250000,200
+Belanger-Jesse,Florida Panthers,C,180000,170
+Belfour-Ed,Chicago Blackhawks,G,1275000,182
+Bellows-Brian,Montreal Canadiens,LW,975000,195
+Benning-Brian,Florida Panthers,D,450000,195
+Beranek-Josef,Philadelphia Flyers,LW,300000,185
+Berehowsky-Drake,Toronto Maple Leafs,D,325000,211
+Berg-Bill,Toronto Maple Leafs,LW,405000,205
+Bergevin-Marc,Tampa Bay Lightning,D,300000,197
+Berry-Brad,Dallas Stars,D,200000,190
+Berube-Craig,Washington Capitals,LW,360000,205
+Beukeboom-Jeff,New York Rangers,D,725000,225
+Billington-Craig,Ottawa Senators,G,300000,170
+Black-James,Dallas Stars,LW,125000,185
+Blake-Rob,Los Angeles Kings,D,250000,215
+Blomsten-Arto,Winnipeg Jets,D,370000,198
+Blue-John,Boston Bruins,G,325000,189
+Bodger-Doug,Buffalo Sabres,D,850000,213
+Boivin-Claude,Philadelphia Flyers,LW,270000,200
+Bondra-Peter,Washington Capitals,RW,450000,180
+Borsato-Luciano,Winnipeg Jets,C,350000,190
+Borschevsky-Nikolai,Toronto Maple Leafs,RW,325000,165
+Bourique-Phil,New York Rangers,LW,450000,195
+Bourque-Ray,Boston Bruins,D,1330000,210
+Bowen-Jason,Philadelphia Flyers,D,200000,210
+Bozon-Phillippe,St. Louis Blues,LW,275000,185
+Bradley-Brian,Tampa Bay Lightning,C,700000,177
+Brady-Neil ,Dallas Stars,C,225000,200
+Brathwaite-Fred,Edmonton Oilers,G,250000,170
+Brind'Amour-Rod,Philadelphia Flyers,C,800000,202
+Brisebois-Patrice,Montreal Canadiens,D,350000,175
+Brodeur-Martin,New Jersey Devils,G,140000,205
+Broten-Neal,Dallas Stars,C,581186,170
+Brown-Jeff,St. Louis Blues,D,900000,204
+Bruce-David,San Jose Sharks,LW,200000,190
+Brunet-Benoit,Montreal Canadiens,LW,365000,184
+Buchberger-Kelly,Edmonton Oilers,RW,330000,210
+Burakowsky-Robert,Ottawa Senators,RW,200000,185
+Bure-Pavel,Vancouver Canucks,RW,930000,189
+Bureau-Marc,Tampa Bay Lightning,C,280000,190
+Burke-Sean,Hartford Whalers,G,650000,210
+Burr-Shawn,Detroit Red Wings,LW,485000,200
+Burridge-Randy,Washington Capitals,LW,388125,185
+Burt-Adam,Hartford Whalers,D,525000,190
+Butcher-Garth,St. Louis Blues,D,550000,200
+Butsayev-Viacheschev,Philadelphia Flyers,C,350000,200
+Capuano-Dave,San Jose Sharks,LW,200000,190
+Carbonneau-Guy,Montreal Canadiens,C,750000,184
+Carkner-Terry,Detroit Red Wings,D,533616,212
+Carnback-Patrik,Anaheim Mighty Ducks,LW,250000,187
+Carney-Keith,Buffalo Sabres,D,250000,205
+Carpenter-Bob,New Jersey Devils,C,300000,190
+Carson-Jimmy,Los Angeles Kings,C,1000000,200
+Casey-Jon,Boston Bruins,G,1100000,155
+Cassels-Andrew,Hartford Whalers,C,700000,192
+Cavallini-Paul,Dallas Stars,D,550000,210
+Chaisson-Steve,Detroit Red Wings,D,1000000,202
+Chambers-Shawn,Tampa Bay Lightning,D,450000,200
+Charbonneau-Jose,Vancouver Canucks,RW,125000,195
+Chase-Kelly,St. Louis Blues,RW,285000,195
+Chelios-Chris,Chicago Blackhawks,D,1100000,192
+Cheveldae-Tim,Detroit Red Wings,G,1000000,195
+Chorske-Tom,New Jersey Devils,RW,300000,205
+Churla-Shane,Dallas Stars,RW,350000,200
+Ciccarelli-Dino,Detroit Red Wings,RW,1400000,175
+Ciccone-Enrico,Washington Capitals,D,225000,200
+Ciger-Zdeno,Edmonton Oilers,RW,260000,190
+Cirella-Joe,Florida Panthers,D,500000,210
+Cirkum-Bob,Anaheim Mighty Ducks,C,260000,212
+Clark-Wendel,Toronto Maple Leafs,LW,900000,194
+Cloutier-Jacques,Quebec Nordiques,G,250000,168
+Coffey-Paul,Detroit Red Wings,D,1300000,195
+Cole-Danton,Tampa Bay Lightning,LW,325000,185
+Conacher-Pat,Los Angeles Kings,C,400000,190
+Conroy-Al,Philadelphia Flyers,RW,200000,170
+Corriveau-Yvon,Hartford Whalers,LW,200000,195
+Corson-Shayne,Edmonton Oilers,LW,850000,200
+Cote-Alain,Quebec Nordiques,D,200000,207
+Cote-Sylain,Washington Capitals,D,700000,190
+Courtnall-Russ,Dallas Stars,RW,800000,185
+Cowley-Wayne,Edmonton Oilers,G,200000,185
+Craig-Mike,Dallas Stars,RW,155000,180
+Craigwell-Dale,San Jose Sharks,C,200000,180
+Craven-Murray,Vancouver Canucks,C,575000,185
+Creighton-Adam,Tampa Bay Lightning,LW,425000,210
+Cronin-Shawn,San Jose Sharks,D,315000,210
+Cullen-John,Toronto Maple Leafs,C,900000,180
+Cummins-Jim,Philadelphia Flyers,RW,200000,203
+Cunneyworth-Randy,Hartford Whalers,LW,300000,180
+Dahl-Kevin ,Calgary Flames,D,305000,190
+Dahlen-Ulf,Dallas Stars,LW,700000,195
+Dahlquist-Chris,Calgary Flames,D,414000,195
+Daigle-Alexandre,Ottawa Senators,C,1975000,175
+Daigneault-J.J.,Montreal Canadiens,D,425000,185
+Dalgamo-Brad ,New York Islanders,RW,350000,215
+Dallas-Bobby,Anaheim Mighty Ducks,D,200000,212
+Dami-Tie ,Winnipeg Jets,RW,375000,200
+Damphousse-Vincent,Montreal Canadiens,LW,1000000,185
+Daneyko-Ken,New Jersey Devils,D,750000,210
+Daniels-Jeff,Pittsburgh Penguins,LW,250000,200
+Davydov-Evgeny,Florida Panthers,LW,225000,195
+Debrusk-Louie,Edmonton Oilers,LW,150000,215
+Demitra-Pavol,Ottawa Senators,LW,240000,178
+Desjardins-Eric,Montreal Canadiens,D,600000,200
+Diduck-Gerald,Vancouver Canucks,D,575000,207
+DiMaio-Rob,Tampa Bay Lightning,C,275000,190
+Dineen-Gord,Ottawa Senators,D,225000,195
+Dineen-Kevin,Philadelphia Flyers,RW,753000,190
+Dionne-Gilbert,Montreal Canadiens,LW,350000,194
+DiPietro-Paul,Montreal Canadiens,C,350000,181
+Dirk-Robert,Vancouver Canucks,D,260000,218
+Donato-Ted,Boston Bruins,C,170000,180
+Donnelly-Mike,Los Angeles Kings,LW,650000,185
+Douris-Peter,Anaheim Mighty Ducks,LW,354000,195
+Drake-Dallas,Detroit Red Wings,LW,250000,180
+Draper-Tom,New York Islanders,G,325000,185
+Drappa-Ivan,Chicago Blackhawks,D,200000,209
+Driver-Bruce,New Jersey Devils,D,650000,185
+Drury-Ted,Calgary Flames,C,200000,190
+Dubinsky-Steve,Chicago Blackhawks,C,200000,190
+Duchesne-Gaetan,San Jose Sharks,LW,400000,200
+Dufresne-Donald,Tampa Bay Lightning,D,265000,206
+Eagles-Mike,Winnipeg Jets,C,275000,190
+Eastwood-Mike,Toronto Maple Leafs,C,150000,205
+Eklund-Pelle,Philadelphia Flyers,LW,588553,175
+Elik-Todd,Edmonton Oilers,C,250000,190
+Ellett-Dave,Toronto Maple Leafs,D,750000,200
+Elynuik-Pat,Washington Capitals,RW,200000,185
+Emerson-Nelson,Winnipeg Jets,C,200000,175
+Erickson-Bryan,Winnipeg Jets,RW,200000,175
+Errey-Bob,San Jose Sharks,LW,705000,183
+Essensa-Bob ,Winnipeg Jets,G,1125000,160
+Evanson-Dean,Dallas Stars,C,395000,180
+Ewen-Todd,Anaheim Mighty Ducks,RW,385000,220
+Falloon-Pat,San Jose Sharks,RW,300000,190
+Featherstone-Glen,Boston Bruins,D,374000,215
+Fedorov-Sergei,Detroit Red Wings,C,295000,200
+Fedyk-Brent,Philadelphia Flyers,LW,275000,195
+Ferner-Mark,Anaheim Mighty Ducks,D,200000,193
+Ferraro-Ray ,New York Islanders,C,725000,185
+Filimonov-Dimitri,Ottawa Senators,D,200000,220
+Finley-Jeff,Philadelphia Flyers,D,250000,204
+Finn-Steven,Quebec Nordiques,D,400000,198
+Fiset-Stephane,Quebec Nordiques,G,235000,175
+Fitzgerald-Tom,Florida Panthers,RW,500000,195
+Fitzpatrick-Mark,Florida Panthers,G,500000,190
+Flatley-Patrick,New York Islanders,RW,600000,200
+Fleury-Theoren,Calgary Flames,RW,800000,160
+Foligno-Mike,Florida Panthers,RW,236000,200
+Foote-Adam,Quebec Nordiques,D,140000,180
+Francis-Ron,Pittsburgh Penguins,C,850000,200
+Fraser-Lain,Quebec Nordiques,C,150000,175
+Fuhr-Grant,Buffalo Sabres,G,1600000,186
+Gagner-Dave,Dallas Stars,C,875000,180
+Gallant-Gerard,Tampa Bay Lightning,LW,450000,190
+Galley-Garry,Philadelphia Flyers,D,478000,190
+Garpenlov-Johan,San Jose Sharks,LW,305000,185
+Gartner-Mike,New York Rangers,RW,1200000,190
+Gaudreau-Rob,San Jose Sharks,RW,250000,185
+Gelinas-Martin,Quebec Nordiques,LW,300000,195
+Gilbert-Greg,New York Rangers,LW,425000,190
+Gilchrist-Brent,Dallas Stars,RW,392500,185
+Gilhen-Randy,Florida Panthers,C,275000,192
+Gill-Todd,Toronto Maple Leafs,D,675000,185
+Gilmour-Doug,Toronto Maple Leafs,C,1000000,172
+Glynn-Brian,Ottawa Senators,D,300000,220
+Godynyuk-Alex,Florida Panthers,D,300000,207
+Gosselin-Mario,Hartford Whalers,G,325000,160
+Goulet-Michel,Chicago Blackhawks,LW,600000,195
+Graham-Dirk,Chicago Blackhawks,RW,690000,190
+Granato-Tony,Los Angeles Kings,RW,1200000,185
+Gratton-Chris,Tampa Bay Lightning,C,700000,202
+Graves-Adam,New York Rangers,LW,400000,207
+Green-Travis,New York Islanders,C,350000,195
+Greig-Mark,Hartford Whalers,RW,275000,190
+Gretzky-Wayne,Los Angeles Kings,C,3000000,180
+Grimson-Stu,Anaheim Mighty Ducks,LW,300000,227
+Guerin-Bill,New Jersey Devils,RW,215000,200
+Gusarov-Alexei,Quebec Nordiques,D,600000,170
+Haller-Kevin,Montreal Canadiens,D,550000,183
+Hamrlik-Roman,Tampa Bay Lightning,D,450000,189
+Hankinson-Ben,New Jersey Devils,RW,155000,180
+Hannon-Dave,Buffalo Sabres,C,325000,185
+Hardy-Mark,Los Angeles Kings,D,200000,195
+Hartman-Mike ,New York Rangers,LW,310000,192
+Hasek-Dominik,Buffalo Sabres,G,400000,168
+Hatcher-Kevin,Washington Capitals,D,1325000,225
+Hawerchuk-Dale,Buffalo Sabres,C,1225000,190
+Hawgood-Greg,Philadelphia Flyers,D,307311,190
+Healy-Glenn,New York Rangers,G,850000,183
+Hebert-Guy,Anaheim Mighty Ducks,G,400000,180
+Hedican-Bret,St. Louis Blues,D,235000,195
+Heinze-Steve,Boston Bruins,RW,238000,192
+Herbers-Ian,Edmonton Oilers,D,215000,225
+Hextall-Ron,New York Islanders,G,880000,192
+Hill-Sean,Anaheim Mighty Ducks,D,300000,195
+Hiller-Jim,Detroit Red Wings,RW,250000,205
+Hockett-Jeff,Chicago Blackhawks,G,450000,185
+Hogue-Benoit,New York Islanders,LW,640000,190
+Holan-Milos,Philadelphia Flyers,D,200000,183
+Holik-Bobby,New Jersey Devils,LW,482000,220
+Houda-Doug,Hartford Whalers,D,200000,200
+Hough-Mike,Florida Panthers,LW,400000,192
+Houlder-Bill,Anaheim Mighty Ducks,D,300000,218
+Housley-Phil,St. Louis Blues,D,2000000,184
+Howe-Mark,Detroit Red Wings,D,800000,185
+Hrivnak-Jim,St. Louis Blues,G,195000,195
+Hrkac-Tony,St. Louis Blues,C,250000,170
+Hrudey-Kelly,Los Angeles Kings,G,700000,189
+Huard-Bill,Ottawa Senators,LW,200000,215
+Huddy-Charlie,Los Angeles Kings,D,550000,210
+Hudson-Mike,New York Rangers,C,375000,205
+Huffman-Kerry,Quebec Nordiques,D,400000,200
+Hull-Brett,St. Louis Blues,RW,2200000,201
+Hunter-Dale,Washington Capitals,C,600000,198
+Iafrate-Al,Washington Capitals,D,900000,220
+Ing-Peter,Detroit Red Wings,G,200000,170
+Irbe-Arturs,San Jose Sharks,G,500000,180
+Jablonski-Pat,Tampa Bay Lightning,G,250000,178
+Jagr-Jaromir,Pittsburgh Penguins,RW,1332000,203
+Janney-Craig,St. Louis Blues,C,1450000,190
+Janssens-Mark ,Hartford Whalers,C,400000,216
+Jennings-Grant,Pittsburgh Penguins,D,330750,200
+Johansson-Calle,Washington Capitals,D,625000,205
+Johnson-Jim,Dallas Stars,D,475000,190
+Jones-Keith,Washington Capitals,RW,270000,190
+Joseph-Curtis,St. Louis Blues,G,1075000,182
+Juneau-Joe,Boston Bruins,LW,250000,175
+Junker-Steve ,New York Islanders,RW,250000,184
+Kamensky-Valeri,Quebec Nordiques,LW,900000,198
+Kaminsky-Yan,Winnipeg Jets,RW,200000,176
+Karamnov-Vitali,St. Louis Blues,RW,400000,185
+Karpa-Dave,Quebec Nordiques,D,250000,202
+Karpovtsev-Alex,New York Rangers,D,275000,210
+Kasatonov-Alexei,Anaheim Mighty Ducks,D,650000,215
+Kasparaitis-Darius,New York Islanders,D,425000,190
+Keane-Mike,Montreal Canadiens,RW,350000,178
+Keczmer-Dan,Hartford Whalers,D,200000,190
+Kennedy-Dean,Winnipeg Jets,D,450000,212
+Khmylev-Yuri,Buffalo Sabres,LW,350000,196
+Kidd-Trevor,Calgary Flames,G,250000,190
+Kimbles-Dave,Chicago Blackhawks,RW,565000,180
+Kimble-Darin,Chicago Blackhawks,RW,325000,205
+King-Derek,New York Islanders,LW,1000000,210
+Kisio-Kelly,Calgary Flames,C,1052000,185
+Klatt-Trent,Dallas Stars,RW,225000,210
+Klima-Petr,Tampa Bay Lightning,RW,700000,190
+Knickle-Rick,Los Angeles Kings,G,250000,175
+Knipscheer-Fred,Boston Bruins,C,200000,185
+Kocur-Joe,New York Rangers,LW,425000,201
+Kolzig-Olaf,Washington Capitals,G,200000,205
+Konroyd-Steve ,Detroit Red Wings,D,700000,195
+Konstantinov-Vladimir,Detroit Red Wings,D,275000,195
+Korolev-Igor,St. Louis Blues,LW,350000,176
+Kovalenko-Andrei,Quebec Nordiques,RW,300000,161
+Kovalev-Alexei,New York Rangers,RW,450000,200
+Kravchuk-Igor,Edmonton Oilers,D,250000,200
+Kristich-Dimitri,Washington Capitals,LW,725000,190
+Kron-Robert,Hartford Whalers,LW,275000,180
+Kroupa-Vastimil,San Jose Sharks,D,200000,176
+Krupp-Uwe,New York Islanders,D,770000,235
+Kruse-Paul,Calgary Flames,LW,200000,202
+Krushelnyski-Mike,Toronto Maple Leafs,C,475000,200
+Krygier-Todd,Washington Capitals,LW,270000,180
+Kucera-Frantisek,Chicago Blackhawks,D,300000,205
+Kudashov-Alexei,Toronto Maple Leafs,C,200000,180
+Kudelski-Bob ,Ottawa Senators,RW,400000,200
+Kurri-Jari,Los Angeles Kings,C,1000000,195
+Kurvers-Tom,New York Islanders,D,500000,195
+Kvartalnov-Dmitri,Boston Bruins,LW,400000,183
+Kypreos-Nick,Hartford Whalers,RW,200000,195
+Lachance-Scott,New York Islanders,D,300000,197
+Lacroix-Daniel,New York Rangers,C,250000,195
+Ladouceur-Randy,Anaheim Mighty Ducks,D,450000,220
+LaFontaine-Pat,Buffalo Sabres,C,2217202,177
+Lalor-Mike,San Jose Sharks,D,675000,200
+Lamb-Mark,Ottawa Senators,C,425000,180
+Lammens-Hank,Ottawa Senators,D,200000,210
+Lapointe-Claude,Quebec Nordiques,C,145000,173
+Larionov-Igor,San Jose Sharks,C,500000,170
+Larmer-Steve,New York Rangers,LW,1100000,189
+Laus-Paul,Florida Panthers,D,250000,212
+Leach-Steve,Boston Bruins,RW,663000,194
+Lebeau-Stephan,Montreal Canadiens,C,650000,172
+LeClair-John,Montreal Canadiens,LW,225000,205
+Ledyard-Grant,Dallas Stars,D,450000,195
+Leeman-Gary,Montreal Canadiens,RW,550000,185
+Leetch-Brian,New York Rangers,D,1805000,195
+Lefebvre-Sylvain,Toronto Maple Leafs,D,600000,210
+Lemieux-Mario,Pittsburgh Penguins,C,3000000,210
+Leschyshyn-Curtis,Quebec Nordiques,D,425000,205
+Levins-Scott,Florida Panthers,C,140000,210
+Lidster-Doug,New York Rangers,D,700000,200
+Lidstrom-Nicklas,Detroit Red Wings,D,200000,185
+Lindberg-Chris,Quebec Nordiques,LW,200000,190
+Linden-Trevor,Vancouver Canucks,RW,1000000,205
+Lindros-Eric,Philadelphia Flyers,C,3500000,235
+Lindsay-Bill,Florida Panthers,LW,200000,185
+Loewen-Darcy,Ottawa Senators,LW,250000,185
+Loiselle-Claude,New York Islanders,C,315000,195
+Lomakin-Andrei,Florida Panthers,RW,275000,175
+Loney-Troy,Anaheim Mighty Ducks,LW,370000,209
+Lowe-Kevin,New York Rangers,D,950000,195
+Lowry-Dave,Florida Panthers,LW,375000,195
+Ludwig-Craig,Dallas Stars,D,375000,217
+Lumme-Jyrki,Vancouver Canucks,D,650000,207
+MacDermid-Paul,Quebec Nordiques,RW,300000,205
+MacInnis-Al,Calgary Flames,D,1300000,196
+Maclean-John,New Jersey Devils,RW,200000,200
+Maclver-Norm,Ottawa Senators,D,575000,180
+Macoun-Jamie,Toronto Maple Leafs,D,685000,200
+MacTavish-Craig,Edmonton Oilers,C,550000,195
+Madeley-Darrin,Ottawa Senators,G,250000,165
+Makarov-Sergei,San Jose Sharks,RW,500000,185
+Malakhov-Vladimir,New York Islanders,D,393000,220
+Maley-David ,San Jose Sharks,LW,370000,195
+Malgunas-Stewart,Philadelphia Flyers,D,250000,200
+Mallette-Troy,Ottawa Senators,LW,325000,210
+Maltby-Kirk,Edmonton Oilers,RW,200000,180
+Manderville-Kent,Toronto Maple Leafs,LW,200000,207
+Manson-Dave,Edmonton Oilers,D,1100000,210
+Marchment-Bryan,Chicago Blackhawks,D,250000,185
+Marois-Daniel,Boston Bruins,RW,375000,190
+Matteau-Stephane,Chicago Blackhawks,LW,425000,200
+Mays-Brad,Buffalo Sabres,LW,160000,200
+May-Alan,Washington Capitals,RW,200000,200
+McAmmond-Dean,Edmonton Oilers,LW,185000,185
+McBean-Wayne,New York Islanders,D,250000,185
+McCarthy-Sandy,Calgary Flames,RW,150000,225
+McCarty-Darren,Detroit Red Wings,RW,200000,215
+McClelland-Kevin,Winnipeg Jets,LW,200000,205
+McCrimmon-Brad ,Hartford Whalers,D,700000,197
+McDougall-Bill,Tampa Bay Lightning,C,225000,185
+McEachem-Shawn,Los Angeles Kings,LW,258000,195
+McGill-Ryan,Philadelphia Flyers,D,275000,197
+McInnis-Marty,New York Islanders,LW,225000,183
+McIntyre-John,Vancouver Canucks,C,325000,190
+McKay-Randy,New Jersey Devils,RW,450000,205
+McKenzie-Jim,Hartford Whalers,LW,400000,210
+McLean-Kirk,Vancouver Canucks,G,1100000,180
+McLlwain-Dave,Ottawa Senators,C,300000,185
+McPhee-Mike,Dallas Stars,LW,500000,205
+McRae-Basil,St. Louis Blues,LW,350377,205
+McSorley-Marty,Pittsburgh Penguins,D,1800000,230
+Mellanby-Scott,Florida Panthers,RW,490000,205
+Messier-Mark ,New York Rangers,C,2533000,210
+Miehm-Kevin,St. Louis Blues,C,225000,200
+Millen-Corey,New Jersey Devils,C,442000,168
+Miller-Kelly,Washington Capitals,LW,1800000,195
+Miranov-Boris,Winnipeg Jets,D,200000,196
+Mironov-Dmitri,Toronto Maple Leafs,D,356000,214
+Modano-Mike ,Dallas Stars,C,1450000,190
+Modry-Jaroslav,New Jersey Devils,D,200000,195
+Mogilny-Alexander,Buffalo Sabres,RW,2000000,187
+Moller-Randy,Buffalo Sabres,D,300000,207
+Momesso-Sergio,Vancouver Canucks,LW,500000,215
+Montgomery-Jim,St. Louis Blues,C,200000,185
+Moog-Andy,Dallas Stars,G,1400000,170
+More-Jayson,San Jose Sharks,D,350000,200
+Mullen-Joe,Pittsburgh Penguins,RW,739022,180
+Muller-Kirk,Montreal Canadiens,C,875000,205
+Muni-Craig,Chicago Blackhawks,D,300000,200
+Murphy-Larry,Pittsburgh Penguins,D,1235000,210
+Murray-Troy,Chicago Blackhawks,C,500000,195
+Murzyn-Dana,Vancouver Canucks,D,615000,200
+Musil-Frank,Calgary Flames,D,450000,215
+Muzzatti-Jason,Calgary Flames,G,200000,190
+Naslund-Markus,Pittsburgh Penguins,LW,900000,180
+Needham-Moke,Pittsburgh Penguins,RW,250000,185
+Neely-Cam,Boston Bruins,RW,1000000,217
+Nemchinov-Sergei,New York Rangers,C,600000,201
+Nicholls-Bernie,New Jersey Devils,C,700000,185
+Nidemrmayer-Rob,Florida Panthers,C,700000,200
+Niedenmayer-Scott,New Jersey Devils,D,325000,200
+Nieuwendyk-Joe,Calgary Flames,C,900000,195
+Nolan-Owen,Quebec Nordiques,RW,700000,194
+Noonan-Brian,Chicago Blackhawks,RW,400000,180
+Norstrom-Mattias,New York Rangers,D,275000,205
+Norton-Jeff,San Jose Sharks,D,650000,190
+Numinen-Teppo,Winnipeg Jets,D,685333,190
+Nylander-Mikael,Hartford Whalers,C,280000,176
+Oates-Adam,Boston Bruins,C,1330000,190
+O'Connor-Myles,Anaheim Mighty Ducks,D,300000,190
+Odelein-Lyle,Montreal Canadiens,D,425000,206
+Odgers-Jeff,San Jose Sharks,RW,225000,195
+Odjick-Gino,Vancouver Canucks,LW,300000,210
+Oksiuta-Roman,Edmonton Oilers,RW,200000,299
+Olausson-Frederik,Winnipeg Jets,D,600000,195
+Olczyk-Ed,New York Rangers,C,850000,200
+Osborne-Mark,Toronto Maple Leafs,LW,425000,205
+Otto-Joel,Calgary Flames,C,550000,220
+Ozolinsh-Sandis,San Jose Sharks,D,200000,195
+Paek-Jim,Pittsburgh Penguins,D,285000,194
+Paslawski-Greg ,Calgary Flames,RW,375000,190
+Patrenko-Sergei,Buffalo Sabres,LW,325000,167
+Patric-James,New York Rangers,D,300000,198
+Pearson-Scott,Edmonton Oilers,LW,315000,205
+Pedersen-Allen,Hartford Whalers,D,400000,210
+Pellerin-Scott,New Jersey Devils,LW,200000,180
+Peluso-Mike,New Jersey Devils,LW,398000,200
+Petit-Michel,Calgary Flames,D,475000,205
+Petrovicky-Robert,Hartford Whalers,C,350000,172
+Pietrangelo-Frank ,Hartford Whalers,G,475000,185
+Pilon-Rich,New York Islanders,D,375000,211
+Pivonka-Michal,Washington Capitals,C,811000,196
+Plante-Derek,Buffalo Sabres,C,400000,160
+Plavsic-Adrien,Vancouver Canucks,D,275000,200
+Podein-Shion,Edmonton Oilers,RW,240000,200
+Poeschek-Rudy,Tampa Bay Lightning,C,200000,210
+Popovic-Peter,Montreal Canadiens,D,300000,210
+Potvin-Felix,Toronto Maple Leafs,G,1200000,180
+Poulin-Dave,Washington Capitals,C,750000,190
+Presley-Wayne,Buffalo Sabres,RW,400000,180
+Primeau-Keith,Detroit Red Wings,LW,225000,220
+Probert-Bob,Detroit Red Wings,LW,400000,225
+Prokhorov-Vitali,St. Louis Blues,LW,400000,185
+Pronger-Chris,Hartford Whalers,D,1600000,190
+Propp-Brian,Hartford Whalers,LW,225000,195
+Puppa-Daren,Tampa Bay Lightning,G,563000,205
+Quintal-Stephane,Winnipeg Jets,D,400000,215
+Racicot-Andre,Montreal Canadiens,G,225000,165
+Racine-Yves,Philadelphia Flyers,D,225000,200
+Raglan-Herb,Ottawa Senators,RW,250000,205
+Ramage-Rob,Montreal Canadiens,D,400000,195
+Ramsey-Mike,Pittsburgh Penguins,D,600000,195
+Ranford-Bill ,Edmonton Oilers,G,1225000,185
+Ranheim-Paul ,Calgary Flames,LW,475000,195
+Rathie-Mike,San Jose Sharks,D,500000,205
+Ray-Rob,Buffalo Sabres,LW,362500,203
+Recchi-Mark,Philadelphia Flyers,RW,1550000,185
+Reekie-Koe,Tampa Bay Lightning,D,425000,215
+Reese-Jeff,Calgary Flames,G,200000,170
+Reichel-Robert,Calgary Flames,C,700000,185
+Reid-Dave,Boston Bruins,LW,400000,215
+Renberg-Mikael,Philadelphia Flyers,LW,300000,218
+Rhodes-Damian,Toronto Maple Leafs,G,300000,175
+Ricci-Mike,Quebec Nordiques,C,678000,190
+Rice-Steve,Edmonton Oilers,RW,155000,215
+Richardson-Luke,Edmonton Oilers,D,600000,210
+Richer-Stephane,New Jersey Devils,LW,867000,200
+Richter-Mike,New York Rangers,G,1000000,182
+Ridley-Mike,Washington Capitals,C,875000,200
+Riendeau-Vincent,Detroit Red Wings,G,450000,185
+Roberge-Mario,Montreal Canadiens,LW,300000,185
+Roberts-Gary,Calgary Flames,LW,1600000,190
+Robitaille-Luc,Los Angeles Kings,LW,1600000,195
+Rochefort-Normand,Tampa Bay Lightning,D,250000,214
+Roenick-Jeremy,Chicago Blackhawks,C,1000000,190
+Rolston-Brian,New Jersey Devils,C,200000,185
+Ronan-Ed,Montreal Canadiens,RW,240000,197
+Ronning-Cliff,Vancouver Canucks,C,575000,170
+Rouse-Bob,Toronto Maple Leafs,D,425000,210
+Roussel-Dominic,Philadelphia Flyers,G,400000,180
+Roy-Patrick,Montreal Canadiens,G,3500000,182
+Rucinsky-Martin,Quebec Nordiques,C,165000,178
+Rumble-Darren,Ottawa Senators,D,300000,200
+Russell-Cam,Chicago Blackhawks,D,250000,195
+Ruuttu-Christian,Chicago Blackhawks,C,550000,192
+Ruzicka-Vladimir,Ottawa Senators,LW,425000,210
+Rychel-Warren,Los Angeles Kings,LW,200000,202
+Sacco-Joe,Anaheim Mighty Ducks,LW,295000,195
+Sacic-Joe,Quebec Nordiques,C,2200000,185
+Samuelsson-Ulf,Pittsburgh Penguins,D,950000,195
+Sanderson-Geoff,Hartford Whalers,LW,800000,185
+Sandlak-Jim,Hartford Whalers,RW,400000,219
+Sandstrom-Tomas,Los Angeles Kings,RW,1335000,200
+Savard-Denis,Tampa Bay Lightning,C,700000,175
+Schlegel-Brad,Calgary Flames,D,200000,190
+Schneider-Mathieu,Montreal Canadiens,D,420000,189
+Scissons-Scott,New York Islanders,C,250000,200
+Selanne-Teemu,Winnipeg Jets,RW,400000,181
+Semak-Alexander,New Jersey Devils,C,650000,180
+Semenov-Anatoli,Anaheim Mighty Ducks,LW,350000,190
+Severyn-Brent,Florida Panthers,D,140000,210
+Sevigny-Pierre,Montreal Canadiens,LW,225000,189
+Shanahan-Brendan,St. Louis Blues,LW,1000000,215
+Shannon-Darrin,Winnipeg Jets,LW,375000,200
+Shantz-Jeff,Chicago Blackhawks,C,330000,184
+Shaw-Brad,Ottawa Senators,D,475000,190
+Sheppard-Ray,Detroit Red Wings,RW,800000,195
+Show-David,Boston Bruins,D,450000,205
+Shuchuk-Gary,Los Angeles Kings,RW,300000,190
+Sidorkiewicz-Peter,New Jersey Devils,G,450000,180
+Sillinger-Mike,Detroit Red Wings,C,160000,200
+Simon-Chris,Quebec Nordiques,LW,180000,230
+Simpson-Craig,Buffalo Sabres,LW,850000,195
+Sjodin-Tommy,Dallas Stars,D,200000,185
+Skrudland-Brian,Florida Panthers,C,675000,196
+Slegar-Jiri,Vancouver Canucks,D,225000,205
+Smehlik-Richard,Buffalo Sabres,D,325000,208
+Smith-Steve,Chicago Blackhawks,D,950000,215
+Smith-Geoff,Edmonton Oilers,D,500000,200
+Smith-Jason,New Jersey Devils,D,200000,185
+Smolinski-Bryan,Boston Bruins,C,225000,200
+Smyth-Greg,Florida Panthers,D,275000,212
+Soderstrom-Tommy,Philadelphia Flyers,G,500000,165
+Stanton-Paul,Pittsburgh Penguins,D,200000,200
+Stapleton-Mike,Pittsburgh Penguins,C,200000,183
+Stauber-Robb,Los Angeles Kings,G,475000,180
+Steen-Thomas,Winnipeg Jets,C,750000,185
+Stern-Ronnie ,Calgary Flames,RW,400000,195
+Stevens-Scott,New Jersey Devils,D,1212500,210
+Stewart-Cam,Boston Bruins,LW,325000,195
+Straka-Martin,Pittsburgh Penguins,C,300000,178
+Stumpel-Jozef,Boston Bruins,LW,185000,190
+Sullivan-Mike,San Jose Sharks,C,315000,185
+Sundin-Mats,Quebec Nordiques,C,850000,189
+Sutter-Gary,Calgary Flames,D,800000,190
+Sutton-Ken,Buffalo Sabres,D,425000,198
+Svoboda-Peter,Buffalo Sabres,D,250000,174
+Sweeney-Bob,Buffalo Sabres,C,470000,200
+Sydor-Darryl,Los Angeles Kings,D,200000,200
+Sykora-Michal,San Jose Sharks,D,320000,210
+Tabaracci-Rick,Washington Capitals,G,387500,179
+Taglianetti-Peter,Pittsburgh Penguins,D,350000,200
+Tancill-Chris,Dallas Stars,LW,200000,185
+Tatarinov-Mikhail,Boston Bruins,D,200000,194
+Taylor-Dave ,Los Angeles Kings,RW,325000,195
+Terreri-Chris,New Jersey Devils,G,600000,155
+Thibault-Jocelyn,Quebec Nordiques,G,425000,170
+Thomas-Steve,New York Islanders,RW,768000,185
+Thompson-Brent,Los Angeles Kings,D,245000,200
+Thomson-Jim,Anaheim Mighty Ducks,RW,250000,220
+Thornton-Scott,Edmonton Oilers,RW,225000,200
+Tikkanen-Esa,New York Rangers,LW,979299,200
+Tilley-Tom,St. Louis Blues,D,250000,190
+Tinordi-Mark,Dallas Stars,D,1050000,205
+Tippett-Dave,Philadelphia Flyers,C,250000,180
+Titov-German,Calgary Flames,C,325000,185
+Tkachuk-Keith,Winnipeg Jets,LW,255000,215
+Tocchet-Rick,Pittsburgh Penguins,RW,997000,205
+Todd-Kevin,Edmonton Oilers,C,200000,180
+Trottier-Bryan ,Pittsburgh Penguins,C,300000,195
+Tsygurov-Denis,Buffalo Sabres,D,400000,198
+Tucker-John,Tampa Bay Lightning,C,385000,200
+Tugnutt-Ron,Anaheim Mighty Ducks,G,525000,155
+Turcotte-Darren ,New York Rangers,C,250000,185
+Turgeon-Pierre,New York Islanders,C,2350000,203
+Twist-Tony,Quebec Nordiques,LW,225000,212
+Ulanov-Igor,Winnipeg Jets,D,200000,202
+Valk-Garry,Anaheim Mighty Ducks,RW,200000,190
+Van Allen-Shaun,Anaheim Mighty Ducks,C,250000,200
+Vanbiesbrouck-John,Florida Panthers,G,950000,172
+Varvio-Jarko,Dallas Stars,LW,200000,175
+Vaske-Dennis,New York Islanders,D,275000,210
+Verbeek-Pat,Hartford Whalers,RW,1150000,190
+Vernon-Mike,Calgary Flames,G,1100000,170
+Vial-Dennis,Ottawa Senators,D,195000,218
+Viitakoski-Vesa,Calgary Flames,LW,200000,210
+Volek-David,New York Islanders,LW,400000,190
+Vujtek-Viadimir ,Edmonton Oilers,C,190000,190
+Vukota-Mick,New York Islanders,RW,320000,215
+Waite-Jimmy,San Jose Sharks,G,300000,180
+Wakaluk-Darcy,Dallas Stars,G,300000,180
+Walz-Wes,Calgary Flames,C,290000,185
+Ward-Aaron,Detroit Red Wings,D,250000,200
+Watters-Tim,Los Angeles Kings,D,375000,185
+Weight-Doug,Edmonton Oilers,C,232000,191
+Weinrich-Eric,Hartford Whalers,D,200000,210
+Wells-Jay,New York Rangers,D,400000,210
+Werenka-Brad,Edmonton Oilers,D,200000,204
+Wesley-Glen,Boston Bruins,D,725000,201
+Whitmore-Kay,Vancouver Canucks,G,550000,185
+Whitney-Ray,San Jose Sharks,RW,210000,160
+Wilkinson-Neil,Chicago Blackhawks,D,375000,190
+Williams-David,Anaheim Mighty Ducks,D,250000,195
+Wilson-Ron,Montreal Canadiens,C,275000,180
+Wolanin-Craig,Quebec Nordiques,D,480000,205
+Wood-Randy,Buffalo Sabres,LW,250000,195
+Woolley-Jason,Washington Capitals,D,200000,185
+Wregget-Ken,Pittsburgh Penguins,G,400000,195
+Yake-Terry,Anaheim Mighty Ducks,C,375000,175
+Yashin-Alexei,Ottawa Senators,C,650000,215
+Yawney-Trent ,Calgary Flames,D,500000,195
+Young-Scott,Quebec Nordiques,RW,600000,190
+Ysebaert-Paul,Winnipeg Jets,RW,750000,190
+Yushkevich-Dimitri,Philadelphia Flyers,D,265000,187
+Yzerman-Steve,Detroit Red Wings,C,3215520,180
+Zalopski-Zarley,Hartford Whalers,D,800000,210
+Zarnuner-Rob,Tampa Bay Lightning,LW,325000,202
+Zelepukin-Valeri,New Jersey Devils,LW,400000,190
+Zettler-Rob,San Jose Sharks,D,325000,195
+Zezel-Peter,Toronto Maple Leafs,C,530000,205
+Zhamnov-Alexei,Winnipeg Jets,C,200000,187
+Zhitnik-Alexei,Los Angeles Kings,D,400000,190
+Zmolek-Doug,San Jose Sharks,D,235000,225
+Zombo-Rick,St. Louis Blues,D,560000,195
+Zubov-Sergei,New York Rangers,D,250000,199
