@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import javax.swing.DefaultListModel;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JList;
 import javax.swing.JMenu;
@@ -47,30 +48,35 @@ public class PersonArray extends Main{
         edit=new JMenu("Edit");
         sortBy=new JMenu("Sort By");
         add=new JMenuItem("Add");
+        add.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/Add.png")));
         add.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 
             }
         });
         remove=new JMenuItem("Remove"); 
+        remove.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/Delete.png")));
         remove.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 
             }
         });
         age=new JMenuItem("Age");
+        age.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/SortAge.png")));
         age.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 
             }
         });
         name=new JMenuItem("Name");
+        name.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/SortName.png")));
         name.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 
             }
         });
         clear=new JMenuItem("Delete All");
+        clear.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/Clear.png")));
         clear.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 people=new Person[1];

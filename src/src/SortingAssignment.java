@@ -13,7 +13,7 @@ import src.Sorting.SortingMethods;
 
 public class SortingAssignment extends Main{
     private JList list;
-    private DefaultListModel ml;
+    public static DefaultListModel ml;
     private JButton generate,bubble,exchange,insertion,quick,back,personArray;
     private JScrollPane js;
     private JTextField arraySize1,totalTime;
