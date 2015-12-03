@@ -6,11 +6,14 @@ import java.awt.event.KeyEvent;
 import javax.swing.DefaultListModel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
+import javax.swing.JTextField;
 import src.PersonArrayItems.Person;
 
 public class PersonArray extends Main{
@@ -22,8 +25,47 @@ public class PersonArray extends Main{
     private DefaultListModel ml;
     private JScrollPane js;
     private JButton back;
+    private JTextField ageF,nameF;
+    private JLabel ageL,nameL;
+    private JRadioButton male,female;
     public PersonArray()
     {
+        people[0]=null;
+        nameF=new JTextField();
+        nameF.setBounds(210,135,150,30);
+        nameF.setVisible(false);
+        ageF=new JTextField();
+        ageF.setBounds(210,100,150,30);
+        ageF.setVisible(false);
+        ageL=new JLabel();
+        ageL.setBounds(160,100,50,30);
+        ageL.setText("Age:");
+        ageL.setVisible(false);
+        nameL=new JLabel();
+        nameL.setBounds(160,135,50,30);
+        nameL.setText("Name:");
+        nameL.setVisible(false);
+        male=new JRadioButton();
+        male.setSelected(true);
+        male.setBounds(160,310,60,30);
+        male.setText("Male");
+        male.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                male.setSelected(true);
+                female.setSelected(false);
+            }
+        });
+        male.setVisible(false);
+        female=new JRadioButton();
+        female.setBounds(220,310,120,30);
+        female.setText("Female");
+        female.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                female.setSelected(true);
+                male.setSelected(false);
+            }
+        });
+        female.setVisible(false);
         back=new JButton();
         back.setBounds(5,5,150,30);
         back.setText("Back");
@@ -51,7 +93,7 @@ public class PersonArray extends Main{
         add.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/Add.png")));
         add.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                
+                addPerson(nameF.getText(),Byte.parseByte(ageF.getText()),male.isSelected());
             }
         });
         remove=new JMenuItem("Remove"); 
@@ -81,7 +123,7 @@ public class PersonArray extends Main{
             public void actionPerformed(ActionEvent e) {
                 people=new Person[1];
                 people[0]=null;
-                
+                refreshToML();
             }
         });
         file.add(clear);
@@ -94,8 +136,50 @@ public class PersonArray extends Main{
         mb.add(sortBy);
         frame.add(back);
         frame.add(js);
+        frame.add(male);
+        frame.add(ageL);
+        frame.add(female);
+        frame.add(nameL);
+        frame.add(ageF);
+        frame.add(nameF);
         mb.setVisible(false);
         frame.setJMenuBar(mb);
+    }
+    private void addPerson(String name,byte age,boolean gender)
+    {
+        int index=-1;
+        for(int i=0;i<people.length;i++)
+        {
+            if(people[i]==null)
+            {
+                index=i;
+                return;
+            }
+        }
+        System.out.println("Added");
+        if(index!=-1)
+        {
+            people[index]=new Person(name,gender,age);
+        }
+        else
+        {
+            addingToPeople();
+            people[people.length-1]=new Person(name,gender,age);
+        }
+        System.out.println("Added");
+        refreshToML();
+    }
+    private void refreshToML()
+    {
+        try
+        {
+            ml.removeAllElements();
+            for(int i=0;i<people.length;i++)
+            {
+                ml.addElement(people[i].getName());
+            }
+        }
+        catch(NullPointerException ex){}
     }
     private void addingToPeople()
     {
@@ -114,5 +198,11 @@ public class PersonArray extends Main{
         mb.setVisible(tf);
         js.setVisible(tf);
         back.setVisible(tf);
+        male.setVisible(tf);
+        female.setVisible(tf);
+        ageL.setVisible(tf);
+        nameL.setVisible(tf);
+        ageF.setVisible(tf);
+        nameF.setVisible(tf);
     }
 }
