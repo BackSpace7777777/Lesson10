@@ -2,7 +2,6 @@ package src;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
 import javax.swing.DefaultListModel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -93,7 +92,11 @@ public class PersonArray extends Main{
         add.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/Add.png")));
         add.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                addPerson(nameF.getText(),Byte.parseByte(ageF.getText()),male.isSelected());
+                try
+                {
+                    addPerson(nameF.getText(),Byte.parseByte(ageF.getText()),male.isSelected());
+                }
+                catch(NumberFormatException ex){}
             }
         });
         remove=new JMenuItem("Remove"); 
@@ -153,20 +156,20 @@ public class PersonArray extends Main{
             if(people[i]==null)
             {
                 index=i;
-                return;
+                break;
             }
         }
-        System.out.println("Added");
         if(index!=-1)
         {
             people[index]=new Person(name,gender,age);
+            System.out.println(index + " if");
         }
         else
         {
             addingToPeople();
             people[people.length-1]=new Person(name,gender,age);
+            System.out.println(people.length + " else");
         }
-        System.out.println("Added");
         refreshToML();
     }
     private void refreshToML()
@@ -195,6 +198,7 @@ public class PersonArray extends Main{
             frame.setTitle("Lesson 10 - Person Array");
             frame.setSize(475,400);
         }
+        list.setVisible(tf);
         mb.setVisible(tf);
         js.setVisible(tf);
         back.setVisible(tf);
@@ -204,5 +208,22 @@ public class PersonArray extends Main{
         nameL.setVisible(tf);
         ageF.setVisible(tf);
         nameF.setVisible(tf);
+    }
+    private void sortByName()
+    {
+        boolean isSorted=false;
+        int index=0;
+        int longestName=0;
+        for(int i=0;i<people.length;i++)
+        {
+            if(people[i].getName().length()>0)longestName=people[i].getName().length();
+        }
+        byte chars[]=new byte[longestName];
+        Person temp[]=new Person[people.length];
+        while(isSorted)
+        {
+            
+        }
+        refreshToML();
     }
 }
