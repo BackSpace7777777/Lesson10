@@ -21,7 +21,7 @@ public class SortingAssignment extends Main{
     private Random r=new Random();
     private long start,end;
     private Thread t;
-    public static JProgressBar jpb;
+    protected static JProgressBar jpb;
     private boolean sorting=false;
     public SortingAssignment()
     {

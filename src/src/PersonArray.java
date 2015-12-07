@@ -2,6 +2,7 @@ package src;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
 import javax.swing.DefaultListModel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -117,7 +118,8 @@ public class PersonArray extends Main{
         name.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/SortName.png")));
         name.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                
+                sorting();
+                refreshToML();
             }
         });
         clear=new JMenuItem("Delete All");
@@ -209,21 +211,14 @@ public class PersonArray extends Main{
         ageF.setVisible(tf);
         nameF.setVisible(tf);
     }
-    private void sortByName()
+    private void sorting()
     {
-        boolean isSorted=false;
-        int index=0;
-        int longestName=0;
-        for(int i=0;i<people.length;i++)
-        {
-            if(people[i].getName().length()>0)longestName=people[i].getName().length();
-        }
-        byte chars[]=new byte[longestName];
-        Person temp[]=new Person[people.length];
-        while(isSorted)
+        String temp[]=new String[people.length];
+        for(int i=0;i<temp.length;i++)temp[i]=people[i].getName();
+        Arrays.sort(temp);
+        for(int i=0;i<temp.length;i++)
         {
             
         }
-        refreshToML();
     }
 }
