@@ -18,8 +18,8 @@ import src.PersonArrayItems.Person;
 
 public class PersonArray extends Main{
     private JMenuBar mb;
-    private JMenu file,edit,sortBy;
-    private JMenuItem add,remove,age,name,clear;
+    private JMenu file,edit,filter;
+    private JMenuItem add,remove,maleFilter,femaleFilter,showAll,clear;
     private Person[] people=new Person[1];
     private JList list;
     private DefaultListModel ml;
@@ -88,7 +88,7 @@ public class PersonArray extends Main{
         mb=new JMenuBar();
         file=new JMenu("File");
         edit=new JMenu("Edit");
-        sortBy=new JMenu("Sort By");
+        filter=new JMenu("Filter");
         add=new JMenuItem("Add");
         add.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/Add.png")));
         add.addActionListener(new ActionListener() {
@@ -104,41 +104,50 @@ public class PersonArray extends Main{
         remove.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/Delete.png")));
         remove.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                
+                removePerson();
             }
         });
-        age=new JMenuItem("Age");
-        age.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/SortAge.png")));
-        age.addActionListener(new ActionListener() {
+        maleFilter=new JMenuItem("Male");
+        maleFilter.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/MaleIcon.png")));
+        maleFilter.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                
+                showMale();
             }
         });
-        name=new JMenuItem("Name");
-        name.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/SortName.png")));
-        name.addActionListener(new ActionListener() {
+        showAll=new JMenuItem("Show All");
+        showAll.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/AllIcon.png")));
+        showAll.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                sorting();
-                refreshToML();
+                showAll();
+            }
+        });
+        femaleFilter=new JMenuItem("Female");
+        femaleFilter.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/FemaleIcon.png")));
+        femaleFilter.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                showFemale();
             }
         });
         clear=new JMenuItem("Delete All");
         clear.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/Clear.png")));
         clear.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                ageF.setText("");
+                nameF.setText("");
                 people=new Person[1];
                 people[0]=null;
-                refreshToML();
+                refreshToML(people);
             }
         });
         file.add(clear);
         edit.add(add);
         edit.add(remove);
-        sortBy.add(age);
-        sortBy.add(name);
+        filter.add(maleFilter);
+        filter.add(femaleFilter);
+        filter.add(showAll);
         mb.add(file);
         mb.add(edit);
-        mb.add(sortBy);
+        mb.add(filter);
         frame.add(back);
         frame.add(js);
         frame.add(male);
@@ -149,6 +158,10 @@ public class PersonArray extends Main{
         frame.add(nameF);
         mb.setVisible(false);
         frame.setJMenuBar(mb);
+    }
+    private void removePerson()
+    {
+        
     }
     private void addPerson(String name,byte age,boolean gender)
     {
@@ -172,16 +185,29 @@ public class PersonArray extends Main{
             people[people.length-1]=new Person(name,gender,age);
             System.out.println(people.length + " else");
         }
-        refreshToML();
+        sortingName();
+        refreshToML(people);
     }
-    private void refreshToML()
+    private void showFemale()
+    {
+        
+    }
+    private void showMale()
+    {
+        
+    }
+    private void showAll()
+    {
+        
+    }
+    private void refreshToML(Person[] array)
     {
         try
         {
             ml.removeAllElements();
-            for(int i=0;i<people.length;i++)
+            for(int i=0;i<array.length;i++)
             {
-                ml.addElement(people[i].getName());
+                ml.addElement(array[i].getName());
             }
         }
         catch(NullPointerException ex){}
@@ -211,14 +237,21 @@ public class PersonArray extends Main{
         ageF.setVisible(tf);
         nameF.setVisible(tf);
     }
-    private void sorting()
+    private void sortingName()
     {
         String temp[]=new String[people.length];
+        Person tempPerson[]=new Person[people.length];
         for(int i=0;i<temp.length;i++)temp[i]=people[i].getName();
         Arrays.sort(temp);
-        for(int i=0;i<temp.length;i++)
-        {
-            
-        }
+        for(int p=0;p<people.length;p++)
+            for(int i=0;i<temp.length;i++)
+            {
+                if(temp[i].equals(people[p].getName()))
+                {
+                    tempPerson[i]=people[p];
+                }
+            }
+        people=tempPerson;
+        refreshToML(people);
     }
 }
