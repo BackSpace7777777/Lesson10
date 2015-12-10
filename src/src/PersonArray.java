@@ -181,7 +181,7 @@ public class PersonArray extends Main{
         }
         else
         {
-            addingToPeople();
+            addingToPeople(people);
             people[people.length-1]=new Person(name,gender,age);
             System.out.println(people.length + " else");
         }
@@ -190,6 +190,16 @@ public class PersonArray extends Main{
     }
     private void showFemale()
     {
+        int index=0;
+        Person tempAdd[]=new Person[1];
+        tempAdd[1]=null;
+        for(int i=0;i<people.length;i++)
+        {
+            if(people[i].getGender()==false)
+            {
+                if(tempAdd[i]!=null)addingToPeople(tempAdd);
+            }
+        }
         
     }
     private void showMale()
@@ -198,7 +208,8 @@ public class PersonArray extends Main{
     }
     private void showAll()
     {
-        
+        sortingName();
+        refreshToML(people);
     }
     private void refreshToML(Person[] array)
     {
@@ -212,12 +223,12 @@ public class PersonArray extends Main{
         }
         catch(NullPointerException ex){}
     }
-    private void addingToPeople()
+    private void addingToPeople(Person[] p)
     {
-        Person[] temp=new Person[people.length+1];
-        for(int i=0;i<people.length;i++)temp[i]=people[i];
-        people=new Person[temp.length];
-        for(int i=0;i<temp.length;i++)people[i]=temp[i];
+        Person[] temp=new Person[p.length+1];
+        for(int i=0;i<p.length;i++)temp[i]=p[i];
+        p=new Person[temp.length];
+        for(int i=0;i<temp.length;i++)p[i]=temp[i];
     }
     public void visible(boolean tf)
     {
@@ -252,6 +263,5 @@ public class PersonArray extends Main{
                 }
             }
         people=tempPerson;
-        refreshToML(people);
     }
 }
