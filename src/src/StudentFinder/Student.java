@@ -1,4 +1,4 @@
-package src;
+package src.StudentFinder;
 public class Student{
     private String name,address;
     private long ID;

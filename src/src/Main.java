@@ -1,5 +1,6 @@
 package src;
 
+import src.StudentFinder.Student;
 import src.StudentFinder.StudentReader;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,8 +16,9 @@ public class Main{
     private static JTextArea out;
     private static StudentReader sr;
     private static Student[] s=new Student[100];
-    private static SortingAssignment sa;
+    protected static SortingAssignment sa;
     protected static PersonArray pa;
+    protected static HockeyPlayer hp;
     public static void main(String[] args) {
         sr=new StudentReader();
         s=sr.loadStudents(s);
@@ -69,6 +71,7 @@ public class Main{
         out.setBounds(5,40,460,300);
         sa=new SortingAssignment();
         pa=new PersonArray();
+        hp=new HockeyPlayer();
         frame.add(sortScreen);
         frame.add(out);
         frame.add(inID);

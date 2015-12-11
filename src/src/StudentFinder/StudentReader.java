@@ -6,7 +6,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
-import src.Student;
 
 public class StudentReader {
     private String[] names=new String[1],address=new String[1],id=new String[1];

@@ -14,7 +14,7 @@ import src.Sorting.SortingMethods;
 public class SortingAssignment extends Main{
     private JList list;
     public static DefaultListModel ml;
-    private JButton generate,bubble,exchange,insertion,quick,back,personArray;
+    private JButton generate,bubble,exchange,insertion,quick,back,personArray,hockey;
     private JScrollPane js;
     private JTextField arraySize1,totalTime;
     private int[] numbers=new int[1];
@@ -25,6 +25,16 @@ public class SortingAssignment extends Main{
     private boolean sorting=false;
     public SortingAssignment()
     {
+        hockey=new JButton();
+        hockey.setBounds(315,90,150,30);
+        hockey.setText("Hockey Players");
+        hockey.setVisible(false);
+        hockey.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                visible(false);
+                hp.visible(true);
+            }
+        });
         personArray=new JButton();
         personArray.setBounds(315,40,150,30);
         personArray.setText("Person Array");
