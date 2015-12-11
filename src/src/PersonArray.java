@@ -111,7 +111,7 @@ public class PersonArray extends Main{
         maleFilter.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/MaleIcon.png")));
         maleFilter.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                showMale();
+                show(true);
             }
         });
         showAll=new JMenuItem("Show All");
@@ -125,7 +125,7 @@ public class PersonArray extends Main{
         femaleFilter.setIcon(new ImageIcon(PersonArray.class.getResource("/src/PersonArrayItems/FemaleIcon.png")));
         femaleFilter.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                showFemale();
+                show(false);
             }
         });
         clear=new JMenuItem("Delete All");
@@ -158,10 +158,40 @@ public class PersonArray extends Main{
         frame.add(nameF);
         mb.setVisible(false);
         frame.setJMenuBar(mb);
+        addPerson("Fred",(byte)25,true);
+        addPerson("42",(byte)255,true);
+        addPerson("Female name",(byte)19,false);
+        addPerson("Floor",(byte)5,false);
+        addPerson("A name",(byte)66,true);
     }
     private void removePerson()
     {
-        
+        int index=list.getSelectedIndex();
+        if(ml.capacity()<people.length || index==-1 || (ml.capacity()<people.length && index==-1))showAll();
+        else
+        {
+            for(int i=index;i<people.length;i++)
+            {
+                try
+                {
+                    people[i]=people[i+1];
+                }
+                catch(ArrayIndexOutOfBoundsException ex)
+                {
+                    Person[] tempPerson=new Person[people.length-1];
+                    for(int inside=0;inside<tempPerson.length;inside++)
+                    {
+                        tempPerson[inside]=people[inside];
+                    }
+                    people=new Person[tempPerson.length];
+                    for(int inside=0;inside<tempPerson.length;inside++)
+                    {
+                        people[inside]=tempPerson[inside];
+                    }
+                }
+            }
+            refreshToML(people);
+        }
     }
     private void addPerson(String name,byte age,boolean gender)
     {
@@ -177,34 +207,37 @@ public class PersonArray extends Main{
         if(index!=-1)
         {
             people[index]=new Person(name,gender,age);
-            System.out.println(index + " if");
         }
         else
         {
-            addingToPeople(people);
+            people=addingToPeople(people);
             people[people.length-1]=new Person(name,gender,age);
-            System.out.println(people.length + " else");
         }
         sortingName();
         refreshToML(people);
     }
-    private void showFemale()
+    private void show(boolean gender)
     {
         int index=0;
         Person tempAdd[]=new Person[1];
-        tempAdd[1]=null;
+        tempAdd[0]=null;
         for(int i=0;i<people.length;i++)
         {
-            if(people[i].getGender()==false)
+            if(people[i].getGender()==gender)
             {
-                if(tempAdd[i]!=null)addingToPeople(tempAdd);
+                try
+                {
+                    if(tempAdd[index]==null)tempAdd[index]=people[i];
+                }
+                catch(ArrayIndexOutOfBoundsException ex)
+                {
+                    tempAdd=addingToPeople(tempAdd);
+                    tempAdd[index]=people[i];
+                }
+                index++;
             }
         }
-        
-    }
-    private void showMale()
-    {
-        
+        refreshToML(tempAdd);
     }
     private void showAll()
     {
@@ -223,12 +256,13 @@ public class PersonArray extends Main{
         }
         catch(NullPointerException ex){}
     }
-    private void addingToPeople(Person[] p)
+    private Person[] addingToPeople(Person[] p)
     {
         Person[] temp=new Person[p.length+1];
         for(int i=0;i<p.length;i++)temp[i]=p[i];
         p=new Person[temp.length];
         for(int i=0;i<temp.length;i++)p[i]=temp[i];
+        return p;
     }
     public void visible(boolean tf)
     {
