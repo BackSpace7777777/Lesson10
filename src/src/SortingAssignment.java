@@ -26,7 +26,7 @@ public class SortingAssignment extends Main{
     public SortingAssignment()
     {
         hockey=new JButton();
-        hockey.setBounds(315,90,150,30);
+        hockey.setBounds(315,75,150,30);
         hockey.setText("Hockey Players");
         hockey.setVisible(false);
         hockey.addActionListener(new ActionListener() {
@@ -175,6 +175,7 @@ public class SortingAssignment extends Main{
         js.setViewportView(list);
         js.setVisible(false);
         js.setBounds(list.getBounds());
+        frame.add(hockey);
         frame.add(personArray);
         frame.add(js);
         frame.add(back);
@@ -202,6 +203,7 @@ public class SortingAssignment extends Main{
         insertion.setVisible(tf);
         totalTime.setVisible(tf);
         personArray.setVisible(tf);
+        hockey.setVisible(tf);
         jpb.setVisible(tf);
     }
     private void reloadML()
