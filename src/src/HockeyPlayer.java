@@ -9,6 +9,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import javax.swing.BorderFactory;
 import javax.swing.DefaultListModel;
+import javax.swing.ImageIcon;
 import javax.swing.JList;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -25,7 +26,7 @@ public class HockeyPlayer extends Main{
     private JList list;
     private JTextArea info;
     private JMenu file,edit,filter;
-    private JMenuItem showAll,showBySelectedTeam,deletePlayer;
+    private JMenuItem showAll,showBySelectedTeam,deletePlayer,exit;
     private JMenuBar mb;
     private boolean showAllB=true;
     public HockeyPlayer()
@@ -57,6 +58,7 @@ public class HockeyPlayer extends Main{
         mb.add(filter);
         mb.setVisible(false);
         showBySelectedTeam=new JMenuItem("Show by Selected Team");
+        showBySelectedTeam.setIcon(new ImageIcon(HockeyPlayer.class.getResource("/src/HockeyPlayerItems/Sort.png")));
         showBySelectedTeam.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 team=showByTeam(players[list.getSelectedIndex()].getTeam());
@@ -64,6 +66,7 @@ public class HockeyPlayer extends Main{
             }
         });
         showAll=new JMenuItem("Show All");
+        showAll.setIcon(new ImageIcon(HockeyPlayer.class.getResource("/src/HockeyPlayerItems/All.png")));
         showAll.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 showAllB=true;
@@ -73,18 +76,30 @@ public class HockeyPlayer extends Main{
         filter.add(showAll);
         filter.add(showBySelectedTeam);
         deletePlayer=new JMenuItem("Delete Player");
+        deletePlayer.setIcon(new ImageIcon(HockeyPlayer.class.getResource("/src/HockeyPlayerItems/Delete.png")));
         deletePlayer.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 if(showAllB)
                 {
-                    
+                    players=deletePlayer(list.getSelectedIndex(),players);
+                    showPlayers(players);
                 }
                 else
                 {
-                    
+                    team=deletePlayer(list.getSelectedIndex(),team);
+                    showPlayers(team);
                 }
             }
         });
+        edit.add(deletePlayer);
+        exit=new JMenuItem("Exit");
+        exit.setIcon(new ImageIcon(HockeyPlayer.class.getResource("/src/HockeyPlayerItems/Exit.png")));
+        exit.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
+        file.add(exit);
         ml=new DefaultListModel();
         list=new JList();
         js=new JScrollPane();
@@ -121,9 +136,21 @@ public class HockeyPlayer extends Main{
         mb.setVisible(tf);
         info.setVisible(tf);
     }
-    private Player[] deletePlayer(int i,Player[] array)
+    private Player[] deletePlayer(int in,Player[] array)
     {
-        Player[] tempPlayer=new Player[array.length-1];
+        Player[] tempPlayer=new Player[array.length];
+        for(int i=0;i<array.length;i++)tempPlayer[i]=array[i];
+        try
+        {
+            for(int i=in;i>=0;i--)
+            {
+                tempPlayer[i]=tempPlayer[i-1];
+            }
+        }catch(Exception ex){}
+        tempPlayer[tempPlayer.length-1]=null;
+        for(int i=0;i<array.length;i++)array[i]=tempPlayer[i];
+        tempPlayer=new Player[array.length-1];
+        for(int i=0;i<tempPlayer.length;i++)tempPlayer[i]=array[i];
         return tempPlayer;
     }
     private Player[] showByTeam(String team)
