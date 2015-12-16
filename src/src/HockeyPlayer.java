@@ -138,20 +138,27 @@ public class HockeyPlayer extends Main{
     }
     private Player[] deletePlayer(int in,Player[] array)
     {
-        Player[] tempPlayer=new Player[array.length];
-        for(int i=0;i<array.length;i++)tempPlayer[i]=array[i];
-        try
-        {
-            for(int i=in;i>=0;i--)
+        for(int i=in;i<array.length;i++)
             {
-                tempPlayer[i]=tempPlayer[i-1];
+                try
+                {
+                    array[i]=array[i+1];
+                }
+                catch(ArrayIndexOutOfBoundsException ex)
+                {
+                    Player[] tempPerson=new Player[array.length-1];
+                    for(int inside=0;inside<tempPerson.length;inside++)
+                    {
+                        tempPerson[inside]=array[inside];
+                    }
+                    array=new Player[tempPerson.length];
+                    for(int inside=0;inside<tempPerson.length;inside++)
+                    {
+                        array[inside]=tempPerson[inside];
+                    }
+                }
             }
-        }catch(Exception ex){}
-        tempPlayer[tempPlayer.length-1]=null;
-        for(int i=0;i<array.length;i++)array[i]=tempPlayer[i];
-        tempPlayer=new Player[array.length-1];
-        for(int i=0;i<tempPlayer.length;i++)tempPlayer[i]=array[i];
-        return tempPlayer;
+        return array;
     }
     private Player[] showByTeam(String team)
     {
